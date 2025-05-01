@@ -1,0 +1,5 @@
+services:
+  ics_calendar.fetcher:
+    class: Drupal\ics_calendar\Service\IcsFetcher
+    arguments: ['@http_client_factory']
+

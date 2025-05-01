@@ -1,0 +1,6 @@
+name: ICS Calendar Display
+type: module
+description: "Fetch ICS dates per content and display calendars."
+core_version_requirement: ^10
+package: Custom
+

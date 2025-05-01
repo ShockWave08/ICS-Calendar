@@ -1,0 +1,8 @@
+fullcalendar:
+  js:
+    https://cdn.jsdelivr.net/npm/fullcalendar/index.global.min.js: { type: external, minified: true }
+    js/ics_calendar.js: {}
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/fullcalendar/main.min.css: { type: external }
+
