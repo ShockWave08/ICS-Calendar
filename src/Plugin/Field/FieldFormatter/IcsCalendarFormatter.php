@@ -49,10 +49,13 @@ class IcsCalendarFormatter extends FormatterBase implements ContainerFactoryPlug
         '#attached' => [
           'library' => ['ics_calendar/fullcalendar'],
         ],
+        '#cache' => [
+          'tags' => $items->getEntity()->getCacheTags(),
+          'max-age' => 3600, // Cache for 1 hour, adjust as needed.
+        ],
       ];
     }
 
     return $elements;
   }
 }
-

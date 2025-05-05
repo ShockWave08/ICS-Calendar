@@ -6,3 +6,5 @@ fullcalendar:
     theme:
       https://cdn.jsdelivr.net/npm/fullcalendar/main.min.css: { type: external }
 
+      
+
